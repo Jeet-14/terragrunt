@@ -22,3 +22,8 @@ All the s3 modules in each env will inherit these config from parent dir. Each m
 │       └── terragrunt.hcl
 └── terragrunt.hcl
  ``` 
+
+ To execute terraform command on multiple module at once, run following from root folder
+ ```
+ terragrunt run-all apply
+ ```
